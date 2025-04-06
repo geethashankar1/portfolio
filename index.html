@@ -98,6 +98,13 @@
     h2 {
       color: #61dafb;
       margin-bottom: 1rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    h2 i {
+      color: #61dafb;
     }
 
     ul {
@@ -166,6 +173,12 @@
       color: #61dafb;
     }
 
+    img.icon {
+      width: 20px;
+      height: 20px;
+      vertical-align: middle;
+    }
+
     @media (max-width: 768px) {
       header h1 {
         font-size: 2rem;
@@ -198,26 +211,26 @@
 </head>
 <body>
   <nav>
-    <a href="#home">Home</a>
-    <a href="#about">About</a>
-    <a href="#skills">Skills</a>
-    <a href="#projects">Projects</a>
-    <a href="#education">Education</a>
-    <a href="#experience">Experience</a>
-    <a href="#certifications">Certifications</a>
-    <a href="#contact">Contact</a>
+    <a href="#home">🏠 Home</a>
+    <a href="#about">👤 About</a>
+    <a href="#skills">🛠️ Skills</a>
+    <a href="#projects">📂 Projects</a>
+    <a href="#education">🎓 Education</a>
+    <a href="#experience">💼 Experience</a>
+    <a href="#certifications">📜 Certifications</a>
+    <a href="#contact">📞 Contact</a>
   </nav>
 
   <header id="home">
-    <h1>P. Geetha Shankar</h1>
+    <h1> P. Geetha Shankar</h1>
     <p>Fresher | Computer Science Engineer</p>
     <div class="resume-download">
-      <a href="Geetha%20shankar%20Resume.pdf" download>Download Resume</a>
+      <a href="Geetha%20shankar%20Resume.pdf" download>⬇️ Download Resume</a>
     </div>
   </header>
 
   <section id="about">
-    <h2>About Me</h2>
+    <h2><i class="bi bi-person-circle"></i> About Me</h2>
     <p>
       I am a final-year Computer Science student from VIT-AP University with a CGPA of 7.16,
       passionate about IoT and software development. I have hands-on experience with real-world projects involving
@@ -226,7 +239,7 @@
   </section>
 
   <section class="skills" id="skills">
-    <h2>Skills</h2>
+    <h2><i class="bi bi-tools"></i> Skills</h2>
     <ul>
       <li>Languages: Java, HTML, CSS</li>
       <li>Web Development Tools: VS Code</li>
@@ -238,23 +251,23 @@
   </section>
 
   <section class="projects" id="projects">
-    <h2>Projects</h2>
+    <h2><i class="bi bi-folder2-open"></i> Projects</h2>
     <div>
-      <strong>Traffic Police Hand Gesture Recognition for Self-Driving Cars</strong>
+      <strong>🚦 Traffic Police Hand Gesture Recognition for Self-Driving Cars</strong>
       <p>
         Developed a real-time gesture recognition system for autonomous vehicles using MoveNet Thunder.
         Focused on Indian traffic scenarios to interpret non-verbal signals from traffic police.
       </p>
     </div>
     <div>
-      <strong>IoT-based Smart Agriculture System</strong>
+      <strong>🌾 IoT-based Smart Agriculture System</strong>
       <p>
         Built an intelligent system using sensors and Arduino to support precision farming,
         increase yield quality, and reduce operational costs. Certified by Vision Technologies.
       </p>
     </div>
     <div>
-      <strong>IoT Healthcare Monitoring System</strong>
+      <strong>❤️ IoT Healthcare Monitoring System</strong>
       <p>
         Developed a health monitoring web application using ESP32, MAX30100 sensor, and Flask backend. Displayed real-time heart rate, SpO2, and temperature data on a styled web interface.
       </p>
@@ -262,7 +275,7 @@
   </section>
 
   <section class="education" id="education">
-    <h2>Education</h2>
+    <h2><i class="bi bi-mortarboard-fill"></i> Education</h2>
     <div>
       <strong>Bachelor of Technology in Computer Science and Engineering</strong><br/>
       Vellore Institute of Technology, Andhra Pradesh (2021 – 2025)<br/>
@@ -279,7 +292,7 @@
   </section>
 
   <section class="experience" id="experience">
-    <h2>Experience</h2>
+    <h2><i class="bi bi-briefcase-fill"></i> Experience</h2>
     <div>
       <strong>Intern – Vision Technologies (Remote)</strong><br/>
       Aug 2024 – Oct 2024<br/>
@@ -289,15 +302,17 @@
   </section>
 
   <section class="certifications" id="certifications">
-    <h2>Certifications</h2>
+    <h2><i class="bi bi-award-fill"></i> Certifications</h2>
     <ul>
       <li>Certified in IoT-based Smart Agriculture System by Vision Technologies</li>
       <li>Google Cloud Certified – Digital Leader</li>
+      <li>Python Programming – Infosys Springboard</li>
+      <li>Introduction to IoT – Cisco Networking Academy</li>
     </ul>
   </section>
 
   <section class="contact" id="contact">
-    <h2>Contact</h2>
+    <h2><i class="bi bi-telephone-fill"></i> Contact</h2>
     <div class="icons">
       <a href="mailto:geethashankar433@gmail.com" title="Email"><i class="bi bi-envelope-fill"></i></a>
       <a href="tel:+918885475210" title="Phone"><i class="bi bi-telephone-fill"></i></a>
